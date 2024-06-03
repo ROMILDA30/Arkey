@@ -1,5 +1,5 @@
 # Arkey
-Benvenuti in Arkey:Il tuo posto preferito, la pace fuori dalla realtà
+Benvenuti in Arkey:Il tuo posto preferito, pace lontano dalla realtà
 
 
 Descrizione
