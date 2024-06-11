@@ -54,3 +54,372 @@ h3 {
 .dropbtn:hover {
   background-color: #574f4d;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5dc;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 14px 9px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #dcdcbf;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  background-color: #433d3c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.section {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f5dc;
+  width: 92%;
+}
+.section img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+
+
+}
+.product-container {
+  text-align: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.product-list-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.product-list-item img {
+  width: 250px;
+  height: auto;
+}
+
+.product-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.promo-section {
+    display: flex;
+    flex-direction: row;
+    height: 400px; 
+}
+
+.promo-image {
+    background-image: url('https://i.pinimg.com/originals/24/bb/f2/24bbf268ec29e359f9a9adb6bc0625b2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+.promo-text {
+    background-color: #000;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.promo-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+}
+
+.promo-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px; 
+    margin: 10px 0;
+}
+
+.subscribe-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px; 
+    color: #fff;
+    background-color: #A89984;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.subscribe-button:hover {
+    background-color: #433d3c;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reviews-section {
+ margin: 20px auto;
+  padding: 30px;
+  background-color: #f5f5dc;
+  width: 89%;
+}
+
+.review-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.review {
+  display: none;
+}
+
+.review.active {
+  display: flex;
+  align-items: center;
+}
+
+.review-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%; 
+  margin-right: 40px;
+}
+
+.stars {
+  margin-bottom: 5px;
+}
+
+.star {
+  color: gold;
+}
+
+.review-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.slider-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #433d3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #574f4d;
+}
+
+.next-btn {
+  margin-left: 10px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+  margin: 0.5em 0 0.2em;
+  font-weight: bold;
+  color: #433d3c;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.7em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  font-size: 16px;
+  color: #333;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: #A89984;
+  outline: none;
+  box-shadow: 0 0 5px rgba(168, 153, 132, 0.5);
+}
+
+#contact-form button {
+  padding: 0.7em;
+  background-color: #A89984;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#contact-form button:hover {
+  background-color: #433d3c;
+}
+
+#form-status {
+  margin-top: 1em;
+  text-align: center;
+  color: #A89984;
+}
+/* Importa il font 3D esterno */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet');
+
+.contact-form-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 10px;
+}
+
+#contact-form {
+    flex: 1;
+}
+
+.calligraphy-text {
+    font-family: 'Caveat', cursive; 
+    font-size: 24px;
+    font-style: italic;
+    color: #333;
+    max-width: 500px;
+    margin-top: 100px;
+    transform: rotate(-5deg);
+    text-align: center;
+    line-height: 1.5; 
+
+}
+
+.scroll-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.scroll-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.scroll-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.scroll-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media query per schermi fino a 768px di larghezza */
+@media (max-width: 768px) {
+  /* Regolazioni per il banner */
+  .banner {
+    padding: 20px;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+  }
+
+  /* Regolazioni per le sezioni */
+  .section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+  }
+
+  /* Regolazioni per il footer */
+  footer {
+    padding: 20px;
+  }
+
+  /* Regolazioni per il carosello di prodotti */
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .product-list-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .product-list-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Media query per schermi fino a 480px di larghezza */
+@media (max-width: 480px) {
+  /* Regolazioni per il banner */
+  .banner {
+    padding: 10px;
+  }
+
+  .banner h1 {
+    font-size: 20px;
+  }
+
+  /* Regolazioni per le sezioni */
+  .section {
+    padding: 30px;
+  }
+
+  /* Regolazioni per il footer */
+  footer {
+    padding: 10px;
+  }
+
+  /* Regolazioni per il carosello di prodotti */
+  .product-list-item {
+    width: 100%;
+  }
+}
+
+  footer {
+    padding: 10px;
+  }
