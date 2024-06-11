@@ -1,1 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url('https://www.google.com/imgres?q=calilo&imgurl=https%3A%2F%2Fwww.andreavetrano.com%2Fwp-content%2Fuploads%2F2022%2F07%2FC614042E-98C2-4F04-A30C-C1CF43956DE3.jpg&imgrefurl=https%3A%2F%2Fwww.andreavetrano.com%2Fhotel%2Fcalilo-luxury-hotel-in-ios-island-greece%2F&docid=gqIEhM3ucKk6YM&tbnid=xjFG5RXQGYKNhM&vet=12ahUKEwibn-KzytOGAxUU_rsIHRAmD68QM3oECFMQAA..i&w=2992&h=3740&hcb=2&ved=2ahUKEwibn-KzytOGAxUU_rsIHRAmD68QM3oECFMQAA');
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+}
