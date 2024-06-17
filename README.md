@@ -17,7 +17,7 @@ Arkey è un albergo vicino al mare tra gli alberi in un angolo privato del'isola
 
 # Accesso al Sito
 
-Puoi visitare il mio sito AraBeauty su questo link:https://arkeybyromildamuca.netlify.app/
+Puoi visitare il mio sito su questo link:https://arkeybyromildamuca.netlify.app/
 
 # Contacts
 
